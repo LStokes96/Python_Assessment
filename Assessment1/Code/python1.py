@@ -230,6 +230,8 @@ def eight(input):
 			list_num.append(x)
 		total = math.prod(list_num)
 		return total
+	elif input == 0:
+		return 0 
 	else:
 		return 1
 
